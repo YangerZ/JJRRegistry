@@ -1,0 +1,8 @@
+
+<h1>{{ UserInfoStatu.Meta }}</h1>
+<ul>
+{% for user in UserInfoStatu.objects.all %}
+    <li>{{ user.name}}</li>
+{% endfor %}
+</ul>
+
